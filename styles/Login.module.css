@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap');
+
+.social__link {
+  display: flex;
+}
+.social__link > div {
+  padding: 4px 15px;
+}
+
+.social__link > div:not(:last-child) {
+  border-right: 1px solid rgba(207, 70, 241, 0.3);
+}
+
+.header {
+  @apply flex justify-between py-5 items-center;
+}
+
+.container {
+  padding: 1rem 20rem;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main {
+  @apply flex justify-center pt-16;
+  position: relative;
+  z-index: 100;
+}
+
+.login__form {
+  @apply p-10 w-3/5 text-white;
+  border: 3px solid rgba(207, 70, 241, 0.7);
+  background: rgba(90, 47, 179, 0.3);
+  backdrop-filter: blur(100px);
+}
+
+.login__heading {
+  font-family: 'Quantico';
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+
+.header__logo {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Quantico';
+  color: #5a2fb3;
+}
+
+.header__logo span {
+  color: #cf46f1;
+}
+
+.primary__input {
+  @apply w-full px-3 py-2 my-2;
+  background: #5a2fb3;
+  opacity: 0.3;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.primary__input::placeholder {
+  color: white;
+}
+
+.primary__button {
+  background: linear-gradient(91.95deg, #cf46f1 -22.35%, #e98342 113.17%);
+  width: 190px;
+  height: 60px;
+  color: white;
+  font-family: 'Quantico';
+  font-weight: 700;
+  font-size: 18px;
+  clip-path: polygon(100% 0, 100% 64%, 89% 100%, 0% 100%, 0 32%, 13% 0);
+}
+
+.color__circles__1 {
+  position: absolute;
+  width: 292px;
+  height: 292px;
+  left: 100px;
+  top: 10px;
+  background: linear-gradient(91.66deg, #cf46f1 -0.64%, #e98342 101.06%);
+  transform: rotate(1.3deg);
+  border-radius: 50%;
+  z-index: -10;
+}
+
+.color__circles__2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right: 150px;
+  bottom: 50px;
+  background: linear-gradient(91.66deg, #cf46f1 -0.64%, #e98342 101.06%);
+  transform: matrix(-1, 0.02, 0.02, 1, 0, 0);
+  border-radius: 50%;
+  z-index: -10;
+}
+.color__circles__3 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  right: 180px;
+  bottom: -80px;
+  background: linear-gradient(91.66deg, #cf46f1 -0.64%, #e98342 101.06%);
+  transform: rotate(1.3deg);
+  border-radius: 50%;
+  z-index: -12;
+}
+
+.color__circles__4 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: -350px;
+  top: -150px;
+  border-radius: 50%;
+  background: linear-gradient(91.66deg, #cf46f1 -0.64%, #e98342 101.06%);
+  filter: blur(200px);
+  transform: rotate(1.3deg);
+}
+
+.color__circles__5 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  right: -350px;
+  bottom: -150px;
+  border-radius: 50%;
+  background: linear-gradient(91.66deg, #cf46f1 -0.64%, #e98342 101.06%);
+  filter: blur(200px);
+  transform: rotate(1.3deg);
+}
+
+.color__circles__6 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  bottom: 100px;
+  left: 80px;
+  border-radius: 50%;
+  background: linear-gradient(87.78deg, #4a29ac 12.46%, #cf46f1 135.86%);
+  transform: rotate(1.3deg);
+}
